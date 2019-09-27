@@ -1,0 +1,31 @@
+/*Feito por Tainá Nascimento*/
+
+div .pesquisa {
+    display:flex;
+    justify-content:flex-end;
+}
+
+div .pesquisa div {
+    display: flex;
+    align-items: center;
+}
+
+.MuiFormLabel-root {
+    color:#d8d8d8 !important;
+}
+
+.MuiInputBase-input {
+    color: #d8d8d8 !important;
+}
+
+.MuiInput-underline {
+    border-color: #c0c0c0 !important;
+}
+
+.MuiInput-underline:before {
+    border-color:#6b6b6b !important;
+}
+
+.MuiInput-underline:after {
+    border-color:#afaeae !important;
+}

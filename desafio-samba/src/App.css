@@ -1,0 +1,51 @@
+/*Feito por Tainá Nascimento*/
+
+
+.corpo {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas:
+        'logo pesquisa'
+        'conteudo conteudo'
+        'paginacao paginacao'
+        'footer footer';
+     background-color: white;
+  }
+  
+  .logo {
+    grid-area: logo;
+    background-color: #545b62;
+
+  }
+  
+  .pesquisa {
+    grid-area: pesquisa;
+    background-color: #545b62;
+  }
+  
+  .conteudo {
+    padding-top: 80px;
+    grid-area: conteudo;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px 100px 0px 100px;
+   
+  }
+  
+  .paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: paginacao;
+  }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+}
